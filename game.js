@@ -22,8 +22,8 @@ var gameOptions = {
     // local storage object name
     localStorageName: 'bestFlappyScore'
 }
-const tg = window.Telegram.WebApp;
 window.onload = function() {
+    const tg = window.Telegram?.WebApp;
     let gameConfig = {
         type: Phaser.AUTO,
         backgroundColor:0x87ceeb,
